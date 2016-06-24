@@ -3,20 +3,16 @@ const ReactDOM = require('react-dom');
 const BenchStore = require('./stores/bench_store');
 const BenchApiUtil = require('./util/bench_api_util');
 const BenchActions = require('./actions/bench_actions');
+const BenchIndex = require('./components/bench_index');
 
 window.BenchStore = BenchStore;
 window.BenchApiUtil = BenchApiUtil;
 window.BenchActions = BenchActions;
 
-const myComponent = React.createClass({
-  render() {
-    return <div></div>;
-  }
-});
 
 document.addEventListener("DOMContentLoaded", function() {
   ReactDOM.render(
-    <myComponent />,
+    <BenchIndex />,
     document.getElementById('content')
   );
 });
