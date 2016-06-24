@@ -3,8 +3,8 @@ const BenchConstants = require('../constants/bench_constants');
 const BenchApiUtil = require('../util/bench_api_util');
 
 const BenchActions = {
-  fetchAllBenches() {
-    BenchApiUtil.fetchAllBenches(this.receiveAllBenches);
+  fetchAllBenches(bounds) {
+    BenchApiUtil.fetchAllBenches(bounds, this.receiveAllBenches);
   },
 
   receiveAllBenches(benches) {

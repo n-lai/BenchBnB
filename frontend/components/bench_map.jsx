@@ -36,7 +36,15 @@ const BenchMap = React.createClass({
 
   listenForMove() {
     google.maps.event.addListener(this.map, 'idle', () => {
-      BenchActions.fetchAllBenches();
+      const latLng = this.map.getBounds();
+      const northEast = latLng.getNorthEast();
+      const southWest = latLng.getSouthWest();
+
+      const bounds = {
+        'northEast': {'lat': northEast.lat(), 'lng': northEast.lng() },
+        'southWest': {'lat': southWest.lat(), 'lng': southWest.lng() }
+      }
+      BenchActions.fetchAllBenches(bounds);
     });
   },
 
