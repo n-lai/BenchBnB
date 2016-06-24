@@ -2486,3 +2486,357 @@ Started GET "/api/benches" for ::1 at 2016-06-24 14:32:07 -0700
 Processing by Api::BenchesController#index as JSON
   [1m[35mBench Load (0.6ms)[0m  SELECT "benches".* FROM "benches"
 Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-24 14:49:57 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 344ms (Views: 342.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-38792a9371a55c4734bdb3bed4c8ebba391ce760bdd38ff49226090b7b250e9e.js?body=1" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-24 14:49:58 -0700
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 14:49:58 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (2.5ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+Completed 200 OK in 20ms (Views: 15.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-24 14:52:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 328ms (Views: 327.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:52:01 -0700
+
+
+Started GET "/assets/bundle.self-2c71575947cdac685fe3579fca666d9cbe282bc0815bbfa97a80711731fdbba3.js?body=1" for ::1 at 2016-06-24 14:52:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 14:52:01 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-24 14:52:01 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 14:52:01 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:52:01 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:52:01 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:52:01 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-24 14:52:01 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-24 14:52:02 -0700
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 14:52:02 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[35mBench Load (0.6ms)[0m  SELECT "benches".* FROM "benches"
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-24 14:52:13 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 286ms (Views: 285.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-fa01bc24fb6621a268e25ddab39d08d27d405e80db046441b53ebbd142b2f132.js?body=1" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-24 14:52:13 -0700
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 14:52:14 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.5ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-24 14:52:23 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:52:23 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:52:23 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-24 14:52:23 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 14:52:23 -0700
+
+
+Started GET "/assets/bundle.self-fa01bc24fb6621a268e25ddab39d08d27d405e80db046441b53ebbd142b2f132.js?body=1" for ::1 at 2016-06-24 14:52:23 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:52:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 14:52:24 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:52:24 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-24 14:52:24 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-24 14:52:24 -0700
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 14:52:24 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[35mBench Load (0.6ms)[0m  SELECT "benches".* FROM "benches"
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-24 14:58:13 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 292ms (Views: 292.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/assets/bundle.self-a131a44d4c30c72313efac11b1d9a181abc2e097f7bf42e4377d21934f3ab725.js?body=1" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-24 14:58:14 -0700
+
+
+Started GET "/" for ::1 at 2016-06-24 15:02:24 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 278ms (Views: 277.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 15:02:24 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 15:02:24 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-24 15:02:24 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 15:02:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 15:02:24 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 15:02:24 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 15:02:24 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-24 15:02:24 -0700
+
+
+Started GET "/assets/bundle.self-cb63f72b7105aab74270559c0d570d48cd62aec2e761fe15cbee9b93455f23c3.js?body=1" for ::1 at 2016-06-24 15:02:24 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-24 15:02:25 -0700
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:02:25 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.9ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:19 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[35mBench Load (1.5ms)[0m  SELECT "benches".* FROM "benches"
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:20 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.4ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:24 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[35mBench Load (0.4ms)[0m  SELECT "benches".* FROM "benches"
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:25 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.7ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:29 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[35mBench Load (0.3ms)[0m  SELECT "benches".* FROM "benches"
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:31 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.5ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:31 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[35mBench Load (0.5ms)[0m  SELECT "benches".* FROM "benches"
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:33 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.8ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-06-24 15:03:42 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/assets/bundle.self-cb63f72b7105aab74270559c0d570d48cd62aec2e761fe15cbee9b93455f23c3.js?body=1" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-24 15:03:43 -0700
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:44 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[35mBench Load (0.6ms)[0m  SELECT "benches".* FROM "benches"
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:49 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.8ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:50 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[35mBench Load (0.4ms)[0m  SELECT "benches".* FROM "benches"
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches" for ::1 at 2016-06-24 15:03:50 -0700
+Processing by Api::BenchesController#index as JSON
+  [1m[36mBench Load (0.5ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.5ms)
