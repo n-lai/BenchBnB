@@ -6991,3 +6991,2973 @@ Processing by Api::BenchesController#index as JSON
         lng BETWEEN -122.4818635559082 AND -122.39603286743164
 [0m
 Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 11:50:09 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 754ms (Views: 753.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-3f69b43880795673ef02cd7de09bbe8dfb026f0c0e13021c630970027a735534.js?body=1" for ::1 at 2016-06-27 11:50:10 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 11:50:10 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (4.0ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 42ms (Views: 7.0ms | ActiveRecord: 14.1ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 11:50:43 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 308ms (Views: 308.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:50:44 -0700
+
+
+Started GET "/assets/bundle.self-e665c476ea9a805db7778423f4501b0a4beff9730dae5842f976a0e98889115f.js?body=1" for ::1 at 2016-06-27 11:50:44 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:50:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 11:50:44 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 11:50:44 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 11:50:44 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:50:44 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:50:44 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 11:50:44 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 11:50:44 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.7ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 11:55:27 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 289ms (Views: 288.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-eddebc2356b7e4ce56ae06f0f3856d5bab9521793f10da1ad9a75e64e35cdf65.js?body=1" for ::1 at 2016-06-27 11:55:28 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 11:55:28 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 11:55:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 11:55:28 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:55:28 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:55:28 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:55:28 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:55:28 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 11:55:28 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 11:55:28 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.7ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.840086010476284&bounds%5BnorthEast%5D%5Blng%5D=-122.39963775634766&bounds%5BsouthWest%5D%5Blat%5D=37.77227214421092&bounds%5BsouthWest%5D%5Blng%5D=-122.48546844482422" for ::1 at 2016-06-27 11:55:30 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.840086010476284", "lng"=>"-122.39963775634766"}, "southWest"=>{"lat"=>"37.77227214421092", "lng"=>"-122.48546844482422"}}}
+  [1m[36mBench Load (0.9ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.77227214421092 AND 37.840086010476284
+      AND
+        lng BETWEEN -122.48546844482422 AND -122.39963775634766
+[0m
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.811611771509206&bounds%5BnorthEast%5D%5Blng%5D=-122.41285568237305&bounds%5BsouthWest%5D%5Blat%5D=37.743771754306216&bounds%5BsouthWest%5D%5Blng%5D=-122.49868637084961" for ::1 at 2016-06-27 11:55:31 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.811611771509206", "lng"=>"-122.41285568237305"}, "southWest"=>{"lat"=>"37.743771754306216", "lng"=>"-122.49868637084961"}}}
+  [1m[35mBench Load (0.6ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.743771754306216 AND 37.811611771509206
+      AND
+        lng BETWEEN -122.49868637084961 AND -122.41285568237305
+
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81120491707258&bounds%5BnorthEast%5D%5Blng%5D=-122.38024002075196&bounds%5BsouthWest%5D%5Blat%5D=37.74336452633322&bounds%5BsouthWest%5D%5Blng%5D=-122.46607070922852" for ::1 at 2016-06-27 11:55:32 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81120491707258", "lng"=>"-122.38024002075196"}, "southWest"=>{"lat"=>"37.74336452633322", "lng"=>"-122.46607070922852"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74336452633322 AND 37.81120491707258
+      AND
+        lng BETWEEN -122.46607070922852 AND -122.38024002075196
+[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.80564434842052&bounds%5BnorthEast%5D%5Blng%5D=-122.38830810546875&bounds%5BsouthWest%5D%5Blat%5D=37.73779885282133&bounds%5BsouthWest%5D%5Blng%5D=-122.47413879394531" for ::1 at 2016-06-27 11:55:33 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.80564434842052", "lng"=>"-122.38830810546875"}, "southWest"=>{"lat"=>"37.73779885282133", "lng"=>"-122.47413879394531"}}}
+  [1m[35mBench Load (0.5ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.73779885282133 AND 37.80564434842052
+      AND
+        lng BETWEEN -122.47413879394531 AND -122.38830810546875
+
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 11:56:29 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 11:58:20 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 285ms (Views: 284.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-fad15e2ef10830d8837f901d0dfda0d6fbda3c02082ced1e1be2291cdbdc658e.js?body=1" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 11:58:21 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 11:58:22 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.8ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.830324651964496&bounds%5BnorthEast%5D%5Blng%5D=-122.41234069824219&bounds%5BsouthWest%5D%5Blat%5D=37.76250181891053&bounds%5BsouthWest%5D%5Blng%5D=-122.49817138671875" for ::1 at 2016-06-27 11:58:24 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.830324651964496", "lng"=>"-122.41234069824219"}, "southWest"=>{"lat"=>"37.76250181891053", "lng"=>"-122.49817138671875"}}}
+  [1m[35mBench Load (0.6ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.76250181891053 AND 37.830324651964496
+      AND
+        lng BETWEEN -122.49817138671875 AND -122.41234069824219
+
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 11:58:34 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 269ms (Views: 268.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/assets/bundle.self-0824b956de8e5c3161a4388b341cd1fd77637db5c5a8dca5119a7db5b1cd72c0.js?body=1" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 11:58:35 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 11:58:35 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.7ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 11:59:19 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 405ms (Views: 404.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/assets/bundle.self-3db099cdb8ca20d11153e4a9f1e84fbe616d88d37f3edd6b80bf36ef86b4cd1c.js?body=1" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 11:59:20 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 11:59:21 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (3.0ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 11ms (Views: 5.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:04:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 375ms (Views: 375.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-4af96b1901b68729bcdc70d31fabf42e61e8f982220c28cfa7a552563053a62a.js?body=1" for ::1 at 2016-06-27 12:04:01 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:04:01 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:04:01 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:04:01 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:04:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:04:01 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:04:01 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:04:01 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:04:01 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:04:02 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:04:02 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (1.3ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 17ms (Views: 12.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:04:04 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/assets/bundle.self-4af96b1901b68729bcdc70d31fabf42e61e8f982220c28cfa7a552563053a62a.js?body=1" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:04:04 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:04:04 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (7.6ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 19ms (Views: 9.9ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:04:31 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:04:31 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:04:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:04:31 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:04:31 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:04:31 -0700
+
+
+Started GET "/assets/bundle.self-4af96b1901b68729bcdc70d31fabf42e61e8f982220c28cfa7a552563053a62a.js?body=1" for ::1 at 2016-06-27 12:04:31 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:04:31 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:04:31 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:04:31 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:04:32 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:04:32 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.7ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:04:40 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 299ms (Views: 299.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:04:40 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:04:40 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:04:40 -0700
+
+
+Started GET "/assets/bundle.self-ceb5083c082367e752c9dcc259231e06480ebc855f098845c7d2675e51afbeaf.js?body=1" for ::1 at 2016-06-27 12:04:40 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:04:41 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:04:41 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:04:41 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:04:41 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:04:41 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:04:41 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:04:41 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (1.2ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:06:30 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 428ms (Views: 427.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/assets/bundle.self-8c6814c2416a31419bc03cc5850347ac5ba92db09a7d377b3d68c77123c9718d.js?body=1" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:06:31 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:06:31 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.7ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.815002137961976&bounds%5BnorthEast%5D%5Blng%5D=-122.45697265625&bounds%5BsouthWest%5D%5Blat%5D=37.74716523361513&bounds%5BsouthWest%5D%5Blng%5D=-122.54280334472656" for ::1 at 2016-06-27 12:06:34 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.815002137961976", "lng"=>"-122.45697265625"}, "southWest"=>{"lat"=>"37.74716523361513", "lng"=>"-122.54280334472656"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74716523361513 AND 37.815002137961976
+      AND
+        lng BETWEEN -122.54280334472656 AND -122.45697265625
+
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81106929842871&bounds%5BnorthEast%5D%5Blng%5D=-122.39895111083985&bounds%5BsouthWest%5D%5Blat%5D=37.74322878317753&bounds%5BsouthWest%5D%5Blng%5D=-122.48478179931641" for ::1 at 2016-06-27 12:06:35 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81106929842871", "lng"=>"-122.39895111083985"}, "southWest"=>{"lat"=>"37.74322878317753", "lng"=>"-122.48478179931641"}}}
+  [1m[36mBench Load (0.5ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74322878317753 AND 37.81106929842871
+      AND
+        lng BETWEEN -122.48478179931641 AND -122.39895111083985
+[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.82462992971208&bounds%5BnorthEast%5D%5Blng%5D=-122.35689407348633&bounds%5BsouthWest%5D%5Blat%5D=37.75680186639395&bounds%5BsouthWest%5D%5Blng%5D=-122.4427247619629" for ::1 at 2016-06-27 12:06:36 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.82462992971208", "lng"=>"-122.35689407348633"}, "southWest"=>{"lat"=>"37.75680186639395", "lng"=>"-122.4427247619629"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.75680186639395 AND 37.82462992971208
+      AND
+        lng BETWEEN -122.4427247619629 AND -122.35689407348633
+
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.811883006554744&bounds%5BnorthEast%5D%5Blng%5D=-122.41165405273438&bounds%5BsouthWest%5D%5Blat%5D=37.74404323837675&bounds%5BsouthWest%5D%5Blng%5D=-122.49748474121094" for ::1 at 2016-06-27 12:06:40 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.811883006554744", "lng"=>"-122.41165405273438"}, "southWest"=>{"lat"=>"37.74404323837675", "lng"=>"-122.49748474121094"}}}
+  [1m[36mBench Load (0.5ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74404323837675 AND 37.811883006554744
+      AND
+        lng BETWEEN -122.49748474121094 AND -122.41165405273438
+[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81201862370388&bounds%5BnorthEast%5D%5Blng%5D=-122.4621224975586&bounds%5BsouthWest%5D%5Blat%5D=37.74417898003861&bounds%5BsouthWest%5D%5Blng%5D=-122.54795318603516" for ::1 at 2016-06-27 12:06:41 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81201862370388", "lng"=>"-122.4621224975586"}, "southWest"=>{"lat"=>"37.74417898003861", "lng"=>"-122.54795318603516"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74417898003861 AND 37.81201862370388
+      AND
+        lng BETWEEN -122.54795318603516 AND -122.4621224975586
+
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81717189078484&bounds%5BnorthEast%5D%5Blng%5D=-122.49731307983399&bounds%5BsouthWest%5D%5Blat%5D=37.74933697871572&bounds%5BsouthWest%5D%5Blng%5D=-122.58314376831055" for ::1 at 2016-06-27 12:06:43 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81717189078484", "lng"=>"-122.49731307983399"}, "southWest"=>{"lat"=>"37.74933697871572", "lng"=>"-122.58314376831055"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74933697871572 AND 37.81717189078484
+      AND
+        lng BETWEEN -122.58314376831055 AND -122.49731307983399
+[0m
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.8110692984289&bounds%5BnorthEast%5D%5Blng%5D=-122.47448211669922&bounds%5BsouthWest%5D%5Blat%5D=37.743228783177734&bounds%5BsouthWest%5D%5Blng%5D=-122.56031280517578" for ::1 at 2016-06-27 12:06:45 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.8110692984289", "lng"=>"-122.47448211669922"}, "southWest"=>{"lat"=>"37.743228783177734", "lng"=>"-122.56031280517578"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.743228783177734 AND 37.8110692984289
+      AND
+        lng BETWEEN -122.56031280517578 AND -122.47448211669922
+
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.805237461103594&bounds%5BnorthEast%5D%5Blng%5D=-122.45559936523438&bounds%5BsouthWest%5D%5Blat%5D=37.7373915919881&bounds%5BsouthWest%5D%5Blng%5D=-122.54143005371094" for ::1 at 2016-06-27 12:06:46 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.805237461103594", "lng"=>"-122.45559936523438"}, "southWest"=>{"lat"=>"37.7373915919881", "lng"=>"-122.54143005371094"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.7373915919881 AND 37.805237461103594
+      AND
+        lng BETWEEN -122.54143005371094 AND -122.45559936523438
+[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.80293172396289&bounds%5BnorthEast%5D%5Blng%5D=-122.4049592590332&bounds%5BsouthWest%5D%5Blat%5D=37.73508373828088&bounds%5BsouthWest%5D%5Blng%5D=-122.49078994750977" for ::1 at 2016-06-27 12:06:49 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.80293172396289", "lng"=>"-122.4049592590332"}, "southWest"=>{"lat"=>"37.73508373828088", "lng"=>"-122.49078994750977"}}}
+  [1m[35mBench Load (0.5ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.73508373828088 AND 37.80293172396289
+      AND
+        lng BETWEEN -122.49078994750977 AND -122.4049592590332
+
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.80686499692088&bounds%5BnorthEast%5D%5Blng%5D=-122.38607650756836&bounds%5BsouthWest%5D%5Blat%5D=37.73902062187878&bounds%5BsouthWest%5D%5Blng%5D=-122.47190719604492" for ::1 at 2016-06-27 12:06:49 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.80686499692088", "lng"=>"-122.38607650756836"}, "southWest"=>{"lat"=>"37.73902062187878", "lng"=>"-122.47190719604492"}}}
+  [1m[36mBench Load (1.2ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.73902062187878 AND 37.80686499692088
+      AND
+        lng BETWEEN -122.47190719604492 AND -122.38607650756836
+[0m
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.834663192983164&bounds%5BnorthEast%5D%5Blng%5D=-122.39603286743164&bounds%5BsouthWest%5D%5Blat%5D=37.76684434507169&bounds%5BsouthWest%5D%5Blng%5D=-122.4818635559082" for ::1 at 2016-06-27 12:07:40 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.834663192983164", "lng"=>"-122.39603286743164"}, "southWest"=>{"lat"=>"37.76684434507169", "lng"=>"-122.4818635559082"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.76684434507169 AND 37.834663192983164
+      AND
+        lng BETWEEN -122.4818635559082 AND -122.39603286743164
+
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:07:50 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 147ms (Views: 146.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-dbca572d40a2b7283fc14f0ac280bebf54ac4870a1297353f5b0673d70e9faf0.js?body=1" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:07:51 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:07:52 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.6ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:07:53 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 153ms (Views: 152.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-467035eeeeb41b0fd94a17697207c5c3f4fb895e0c40b65263d0e0851a0c3b81.js?body=1" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:07:53 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:07:54 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.7ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:09:41 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 296ms (Views: 295.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:09:41 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:09:41 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:09:41 -0700
+
+
+Started GET "/assets/bundle.self-6b04aeab7c0d1f1da8bfaa11a36ce12ab9ca565146668c4f6b209dd34aed626b.js?body=1" for ::1 at 2016-06-27 12:09:41 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:09:41 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:09:41 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:09:41 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:09:41 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:09:42 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:09:42 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:09:44 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.5ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:09:49 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:09:49 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:09:49 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:09:49 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:09:49 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:09:49 -0700
+
+
+Started GET "/assets/bundle.self-6b04aeab7c0d1f1da8bfaa11a36ce12ab9ca565146668c4f6b209dd34aed626b.js?body=1" for ::1 at 2016-06-27 12:09:49 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:09:49 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:09:49 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:09:49 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:09:50 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:09:50 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.7ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.8244943357307&bounds%5BnorthEast%5D%5Blng%5D=-122.41422897338867&bounds%5BsouthWest%5D%5Blat%5D=37.75666614788576&bounds%5BsouthWest%5D%5Blng%5D=-122.50005966186524" for ::1 at 2016-06-27 12:09:52 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.8244943357307", "lng"=>"-122.41422897338867"}, "southWest"=>{"lat"=>"37.75666614788576", "lng"=>"-122.50005966186524"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.75666614788576 AND 37.8244943357307
+      AND
+        lng BETWEEN -122.50005966186524 AND -122.41422897338867
+[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.82869763330846&bounds%5BnorthEast%5D%5Blng%5D=-122.49782806396485&bounds%5BsouthWest%5D%5Blat%5D=37.76087330586601&bounds%5BsouthWest%5D%5Blng%5D=-122.58365875244141" for ::1 at 2016-06-27 12:09:54 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.82869763330846", "lng"=>"-122.49782806396485"}, "southWest"=>{"lat"=>"37.76087330586601", "lng"=>"-122.58365875244141"}}}
+  [1m[35mBench Load (0.5ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.76087330586601 AND 37.82869763330846
+      AND
+        lng BETWEEN -122.58365875244141 AND -122.49782806396485
+
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81771431902633&bounds%5BnorthEast%5D%5Blng%5D=-122.39483123779297&bounds%5BsouthWest%5D%5Blat%5D=37.749879905032735&bounds%5BsouthWest%5D%5Blng%5D=-122.48066192626953" for ::1 at 2016-06-27 12:09:57 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81771431902633", "lng"=>"-122.39483123779297"}, "southWest"=>{"lat"=>"37.749879905032735", "lng"=>"-122.48066192626953"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.749879905032735 AND 37.81771431902633
+      AND
+        lng BETWEEN -122.48066192626953 AND -122.39483123779297
+[0m
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:10:16 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 279ms (Views: 278.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-a5a9ac1c8b23872c19b2f653941c43b3d70b86d78e087fa7e183b263bbe8014b.js?body=1" for ::1 at 2016-06-27 12:10:16 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:10:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:10:16 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:10:16 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:10:16 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:10:16 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:10:16 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:10:16 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:10:16 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:10:17 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:10:17 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (1.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 12ms (Views: 7.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:10:29 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 186ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:10:29 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:10:29 -0700
+
+
+Started GET "/assets/bundle.self-9a7ebdf531b34fe9054e906fadd429b8d5202ee112f52876d23e2f7f2af22c0e.js?body=1" for ::1 at 2016-06-27 12:10:29 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:10:29 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:10:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:10:29 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:10:29 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:10:29 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:10:29 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:10:30 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:10:30 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.7ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.838730343476854&bounds%5BnorthEast%5D%5Blng%5D=-122.38435989379883&bounds%5BsouthWest%5D%5Blat%5D=37.77091523177727&bounds%5BsouthWest%5D%5Blng%5D=-122.4701905822754" for ::1 at 2016-06-27 12:10:32 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.838730343476854", "lng"=>"-122.38435989379883"}, "southWest"=>{"lat"=>"37.77091523177727", "lng"=>"-122.4701905822754"}}}
+  [1m[35mBench Load (0.5ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.77091523177727 AND 37.838730343476854
+      AND
+        lng BETWEEN -122.4701905822754 AND -122.38435989379883
+
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81242547365714&bounds%5BnorthEast%5D%5Blng%5D=-122.40375762939453&bounds%5BsouthWest%5D%5Blat%5D=37.744586203530986&bounds%5BsouthWest%5D%5Blng%5D=-122.4895883178711" for ::1 at 2016-06-27 12:10:36 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81242547365714", "lng"=>"-122.40375762939453"}, "southWest"=>{"lat"=>"37.744586203530986", "lng"=>"-122.4895883178711"}}}
+  [1m[36mBench Load (0.5ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.744586203530986 AND 37.81242547365714
+      AND
+        lng BETWEEN -122.4895883178711 AND -122.40375762939453
+[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:11:39 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 268ms (Views: 267.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/assets/bundle.self-4ed0734ce9bb28e9f0a223c3e1af2eef5cd112f778e1372b0d7a09767febe101.js?body=1" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:11:39 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:11:40 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.8ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.829646731884324&bounds%5BnorthEast%5D%5Blng%5D=-122.39757781982422&bounds%5BsouthWest%5D%5Blat%5D=37.761823276165835&bounds%5BsouthWest%5D%5Blng%5D=-122.48340850830078" for ::1 at 2016-06-27 12:11:42 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.829646731884324", "lng"=>"-122.39757781982422"}, "southWest"=>{"lat"=>"37.761823276165835", "lng"=>"-122.48340850830078"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.761823276165835 AND 37.829646731884324
+      AND
+        lng BETWEEN -122.48340850830078 AND -122.39757781982422
+[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.84686397172238&bounds%5BnorthEast%5D%5Blng%5D=-122.39706283569336&bounds%5BsouthWest%5D%5Blat%5D=37.77905633285499&bounds%5BsouthWest%5D%5Blng%5D=-122.48289352416992" for ::1 at 2016-06-27 12:11:44 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.84686397172238", "lng"=>"-122.39706283569336"}, "southWest"=>{"lat"=>"37.77905633285499", "lng"=>"-122.48289352416992"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.77905633285499 AND 37.84686397172238
+      AND
+        lng BETWEEN -122.48289352416992 AND -122.39706283569336
+
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.867600663351&bounds%5BnorthEast%5D%5Blng%5D=-122.42195373535156&bounds%5BsouthWest%5D%5Blat%5D=37.799812082666236&bounds%5BsouthWest%5D%5Blng%5D=-122.50778442382813" for ::1 at 2016-06-27 12:11:50 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.867600663351", "lng"=>"-122.42195373535156"}, "southWest"=>{"lat"=>"37.799812082666236", "lng"=>"-122.50778442382813"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.799812082666236 AND 37.867600663351
+      AND
+        lng BETWEEN -122.50778442382813 AND -122.42195373535156
+[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.845101761724735&bounds%5BnorthEast%5D%5Blng%5D=-122.4126840209961&bounds%5BsouthWest%5D%5Blat%5D=37.777292503697495&bounds%5BsouthWest%5D%5Blng%5D=-122.49851470947266" for ::1 at 2016-06-27 12:11:51 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.845101761724735", "lng"=>"-122.4126840209961"}, "southWest"=>{"lat"=>"37.777292503697495", "lng"=>"-122.49851470947266"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.777292503697495 AND 37.845101761724735
+      AND
+        lng BETWEEN -122.49851470947266 AND -122.4126840209961
+
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.84252614828657&bounds%5BnorthEast%5D%5Blng%5D=-122.38968139648438&bounds%5BsouthWest%5D%5Blat%5D=37.77471452384092&bounds%5BsouthWest%5D%5Blng%5D=-122.47551208496094" for ::1 at 2016-06-27 12:11:53 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.84252614828657", "lng"=>"-122.38968139648438"}, "southWest"=>{"lat"=>"37.77471452384092", "lng"=>"-122.47551208496094"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.77471452384092 AND 37.84252614828657
+      AND
+        lng BETWEEN -122.47551208496094 AND -122.38968139648438
+[0m
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.84266170913113&bounds%5BnorthEast%5D%5Blng%5D=-122.34573608398438&bounds%5BsouthWest%5D%5Blat%5D=37.77485020923247&bounds%5BsouthWest%5D%5Blng%5D=-122.43156677246094" for ::1 at 2016-06-27 12:11:54 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.84266170913113", "lng"=>"-122.34573608398438"}, "southWest"=>{"lat"=>"37.77485020923247", "lng"=>"-122.43156677246094"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.77485020923247 AND 37.84266170913113
+      AND
+        lng BETWEEN -122.43156677246094 AND -122.34573608398438
+
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:14:13 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 278ms (Views: 277.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-1c0990ee74eb310e56b93681862985568e183d8f7bb73babba00d3c5427e3849.js?body=1" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:14:13 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 12:42:24 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 486ms (Views: 485.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:42:25 -0700
+
+
+Started GET "/assets/bundle.self-868c315f6ff0add9597d883847f2440819e384b7e1574d627fd4f81bedcb5d75.js?body=1" for ::1 at 2016-06-27 12:42:25 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:42:25 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:42:25 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:42:25 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:42:25 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:42:25 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:42:25 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:42:25 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:42:55 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 12:44:44 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 335ms (Views: 334.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:44:44 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:44:44 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:44:44 -0700
+
+
+Started GET "/assets/bundle.self-27d7b02a8affdb42639d25929dd472cfeaaad0a2159260760b79403c8e1ee82f.js?body=1" for ::1 at 2016-06-27 12:44:44 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:44:44 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:44:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:44:44 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:44:44 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:44:45 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:45:15 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 12:45:30 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:45:30 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:45:30 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:45:30 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:45:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:45:30 -0700
+
+
+Started GET "/assets/bundle.self-27d7b02a8affdb42639d25929dd472cfeaaad0a2159260760b79403c8e1ee82f.js?body=1" for ::1 at 2016-06-27 12:45:30 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:45:30 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:45:30 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:45:30 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 12:45:43 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:45:46 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 255ms (Views: 254.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-85457d1b89583698f3b03e79d44c6408d3acc6e3ca56cf993dd4a33ca999003a.js?body=1" for ::1 at 2016-06-27 12:45:46 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 12:45:55 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 273ms (Views: 273.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-1afbfd59e7ec4fff6493185cdc2a275bf15d9ee6b3e7455989deebb915d790ea.js?body=1" for ::1 at 2016-06-27 12:45:55 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:46:00 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 12:46:48 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:46:48 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:46:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:46:48 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:46:48 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:46:48 -0700
+
+
+Started GET "/assets/bundle.self-1afbfd59e7ec4fff6493185cdc2a275bf15d9ee6b3e7455989deebb915d790ea.js?body=1" for ::1 at 2016-06-27 12:46:48 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:46:48 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:46:48 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:46:48 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:47:41 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 12:50:12 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 271ms (Views: 269.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:50:12 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:50:12 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:50:12 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:50:12 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:50:12 -0700
+
+
+Started GET "/assets/bundle.self-01157a2fc861dca24ec21154cfba6e3661321a1573e00fe38e122ba10a9ebeb7.js?body=1" for ::1 at 2016-06-27 12:50:12 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:50:12 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:50:12 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:50:12 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:50:13 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 12:50:15 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/assets/bundle.self-01157a2fc861dca24ec21154cfba6e3661321a1573e00fe38e122ba10a9ebeb7.js?body=1" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:50:15 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 12:50:24 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:50:24 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:50:24 -0700
+
+
+Started GET "/assets/bundle.self-27d7b02a8affdb42639d25929dd472cfeaaad0a2159260760b79403c8e1ee82f.js?body=1" for ::1 at 2016-06-27 12:50:24 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:50:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:50:24 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:50:24 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:50:24 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:50:24 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:50:24 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:50:25 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:50:25 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (1.5ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:51:07 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 292ms (Views: 291.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/assets/bundle.self-56b02813e6cd6a993720e2cd5b601cd286aecf5745d6a97ae5af848b1d0ed975.js?body=1" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:51:08 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:51:08 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.8ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.832222795052616&bounds%5BnorthEast%5D%5Blng%5D=-122.39277130126953&bounds%5BsouthWest%5D%5Blat%5D=37.76440170547941&bounds%5BsouthWest%5D%5Blng%5D=-122.4786019897461" for ::1 at 2016-06-27 12:51:14 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.832222795052616", "lng"=>"-122.39277130126953"}, "southWest"=>{"lat"=>"37.76440170547941", "lng"=>"-122.4786019897461"}}}
+  [1m[36mBench Load (0.7ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.76440170547941 AND 37.832222795052616
+      AND
+        lng BETWEEN -122.4786019897461 AND -122.39277130126953
+[0m
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.805915605386645&bounds%5BnorthEast%5D%5Blng%5D=-122.40015274047852&bounds%5BsouthWest%5D%5Blat%5D=37.738070358799085&bounds%5BsouthWest%5D%5Blng%5D=-122.48598342895508" for ::1 at 2016-06-27 12:51:19 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.805915605386645", "lng"=>"-122.40015274047852"}, "southWest"=>{"lat"=>"37.738070358799085", "lng"=>"-122.48598342895508"}}}
+  [1m[35mBench Load (0.5ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.738070358799085 AND 37.805915605386645
+      AND
+        lng BETWEEN -122.48598342895508 AND -122.40015274047852
+
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.83127372961292&bounds%5BnorthEast%5D%5Blng%5D=-122.44100814819336&bounds%5BsouthWest%5D%5Blat%5D=37.7634517682956&bounds%5BsouthWest%5D%5Blng%5D=-122.52683883666992" for ::1 at 2016-06-27 12:51:22 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.83127372961292", "lng"=>"-122.44100814819336"}, "southWest"=>{"lat"=>"37.7634517682956", "lng"=>"-122.52683883666992"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.7634517682956 AND 37.83127372961292
+      AND
+        lng BETWEEN -122.52683883666992 AND -122.44100814819336
+[0m
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.83181605421677&bounds%5BnorthEast%5D%5Blng%5D=-122.45645767211914&bounds%5BsouthWest%5D%5Blat%5D=37.763994591038035&bounds%5BsouthWest%5D%5Blng%5D=-122.5422883605957" for ::1 at 2016-06-27 12:51:43 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.83181605421677", "lng"=>"-122.45645767211914"}, "southWest"=>{"lat"=>"37.763994591038035", "lng"=>"-122.5422883605957"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.763994591038035 AND 37.83181605421677
+      AND
+        lng BETWEEN -122.5422883605957 AND -122.45645767211914
+
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81337478149574&bounds%5BnorthEast%5D%5Blng%5D=-122.42676025390625&bounds%5BsouthWest%5D%5Blat%5D=37.745536382966115&bounds%5BsouthWest%5D%5Blng%5D=-122.51259094238281" for ::1 at 2016-06-27 12:51:45 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81337478149574", "lng"=>"-122.42676025390625"}, "southWest"=>{"lat"=>"37.745536382966115", "lng"=>"-122.51259094238281"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.745536382966115 AND 37.81337478149574
+      AND
+        lng BETWEEN -122.51259094238281 AND -122.42676025390625
+[0m
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.82164680457333&bounds%5BnorthEast%5D%5Blng%5D=-122.4482179260254&bounds%5BsouthWest%5D%5Blat%5D=37.75381600169976&bounds%5BsouthWest%5D%5Blng%5D=-122.53404861450196" for ::1 at 2016-06-27 12:51:47 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.82164680457333", "lng"=>"-122.4482179260254"}, "southWest"=>{"lat"=>"37.75381600169976", "lng"=>"-122.53404861450196"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.75381600169976 AND 37.82164680457333
+      AND
+        lng BETWEEN -122.53404861450196 AND -122.4482179260254
+
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.8228671885226&bounds%5BnorthEast%5D%5Blng%5D=-122.41302734375&bounds%5BsouthWest%5D%5Blat%5D=37.755037506367366&bounds%5BsouthWest%5D%5Blng%5D=-122.49885803222656" for ::1 at 2016-06-27 12:52:06 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.8228671885226", "lng"=>"-122.41302734375"}, "southWest"=>{"lat"=>"37.755037506367366", "lng"=>"-122.49885803222656"}}}
+  [1m[36mBench Load (0.5ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.755037506367366 AND 37.8228671885226
+      AND
+        lng BETWEEN -122.49885803222656 AND -122.41302734375
+[0m
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.8228671885226&bounds%5BnorthEast%5D%5Blng%5D=-122.39311462402344&bounds%5BsouthWest%5D%5Blat%5D=37.755037506367366&bounds%5BsouthWest%5D%5Blng%5D=-122.4789453125" for ::1 at 2016-06-27 12:52:07 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.8228671885226", "lng"=>"-122.39311462402344"}, "southWest"=>{"lat"=>"37.755037506367366", "lng"=>"-122.4789453125"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.755037506367366 AND 37.8228671885226
+      AND
+        lng BETWEEN -122.4789453125 AND -122.39311462402344
+
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.84062827030069&bounds%5BnorthEast%5D%5Blng%5D=-122.40375762939453&bounds%5BsouthWest%5D%5Blat%5D=37.77281490221326&bounds%5BsouthWest%5D%5Blng%5D=-122.4895883178711" for ::1 at 2016-06-27 12:52:13 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.84062827030069", "lng"=>"-122.40375762939453"}, "southWest"=>{"lat"=>"37.77281490221326", "lng"=>"-122.4895883178711"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.77281490221326 AND 37.84062827030069
+      AND
+        lng BETWEEN -122.4895883178711 AND -122.40375762939453
+[0m
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.8339853127676&bounds%5BnorthEast%5D%5Blng%5D=-122.4046159362793&bounds%5BsouthWest%5D%5Blat%5D=37.76616584216739&bounds%5BsouthWest%5D%5Blng%5D=-122.49044662475586" for ::1 at 2016-06-27 12:52:17 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.8339853127676", "lng"=>"-122.4046159362793"}, "southWest"=>{"lat"=>"37.76616584216739", "lng"=>"-122.49044662475586"}}}
+  [1m[35mBench Load (1.1ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.76616584216739 AND 37.8339853127676
+      AND
+        lng BETWEEN -122.49044662475586 AND -122.4046159362793
+
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.82842646004581&bounds%5BnorthEast%5D%5Blng%5D=-122.40392929077149&bounds%5BsouthWest%5D%5Blat%5D=37.760601883540744&bounds%5BsouthWest%5D%5Blng%5D=-122.48975997924805" for ::1 at 2016-06-27 12:52:19 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.82842646004581", "lng"=>"-122.40392929077149"}, "southWest"=>{"lat"=>"37.760601883540744", "lng"=>"-122.48975997924805"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.760601883540744 AND 37.82842646004581
+      AND
+        lng BETWEEN -122.48975997924805 AND -122.40392929077149
+[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:53:34 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 282ms (Views: 281.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-40eb6f9ab54aef4b111505ef22b0b52514f2bf0669392b873fa11ca7ba4fe0b7.js?body=1" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:53:34 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:53:35 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.6ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.831273729612406&bounds%5BnorthEast%5D%5Blng%5D=-122.37474685668946&bounds%5BsouthWest%5D%5Blat%5D=37.76345176829509&bounds%5BsouthWest%5D%5Blng%5D=-122.46057754516602" for ::1 at 2016-06-27 12:53:38 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.831273729612406", "lng"=>"-122.37474685668946"}, "southWest"=>{"lat"=>"37.76345176829509", "lng"=>"-122.46057754516602"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.76345176829509 AND 37.831273729612406
+      AND
+        lng BETWEEN -122.46057754516602 AND -122.37474685668946
+[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:54:06 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:54:06 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:54:06 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:54:06 -0700
+
+
+Started GET "/assets/bundle.self-40eb6f9ab54aef4b111505ef22b0b52514f2bf0669392b873fa11ca7ba4fe0b7.js?body=1" for ::1 at 2016-06-27 12:54:06 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:54:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:54:06 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:54:06 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:54:06 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:54:06 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:54:07 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:54:07 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.7ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.82164680457223&bounds%5BnorthEast%5D%5Blng%5D=-122.3658204650879&bounds%5BsouthWest%5D%5Blat%5D=37.75381600169864&bounds%5BsouthWest%5D%5Blng%5D=-122.45165115356446" for ::1 at 2016-06-27 12:54:13 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.82164680457223", "lng"=>"-122.3658204650879"}, "southWest"=>{"lat"=>"37.75381600169864", "lng"=>"-122.45165115356446"}}}
+  [1m[36mBench Load (0.5ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.75381600169864 AND 37.82164680457223
+      AND
+        lng BETWEEN -122.45165115356446 AND -122.3658204650879
+[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 12:56:01 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 281ms (Views: 280.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-dcd0c2f3a4454dfdb98ceb98bcd67c7cf7f4e8bfc2abb74c54027bc0bf8dd055.js?body=1" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:56:01 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:56:02 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.7ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.7ms)
+  [1m[36mBench Load (0.7ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+  [1m[36m (5036.2ms)[0m  [1mDROP DATABASE IF EXISTS "BenchBnB_development"[0m
+  [1m[35m (130.7ms)[0m  DROP DATABASE IF EXISTS "BenchBnB_test"
+  [1m[36m (1.5ms)[0m  [1mCREATE DATABASE "BenchBnB_development" ENCODING = 'unicode'[0m
+  [1m[35m (345.2ms)[0m  CREATE DATABASE "BenchBnB_test" ENCODING = 'unicode'
+  [1m[36mSQL (6.5ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (11.5ms)[0m  DROP TABLE "benches" CASCADE
+  [1m[36m (18.0ms)[0m  [1mCREATE TABLE "benches" ("id" serial primary key, "description" text, "lat" float NOT NULL, "lng" float NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (8.4ms)[0m  CREATE TABLE "benches" ("id" serial primary key, "description" text, "lat" float NOT NULL, "lng" float NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (4.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160624174854')
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (2.3ms)[0m  [1mINSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "Romantic Bench for Couples"], ["lat", 37.752334], ["lng", -122.447551], ["created_at", "2016-06-27 19:58:22.288733"], ["updated_at", "2016-06-27 19:58:22.288733"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["description", "Bench for the princess and babe"], ["lat", 37.766898], ["lng", -122.468331], ["created_at", "2016-06-27 19:58:22.296982"], ["updated_at", "2016-06-27 19:58:22.296982"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "Bench for Cats"], ["lat", 37.76655], ["lng", -122.442705], ["created_at", "2016-06-27 19:58:22.298806"], ["updated_at", "2016-06-27 19:58:22.298806"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["description", "Bench for Dogs"], ["lat", 37.772042], ["lng", -122.458262], ["created_at", "2016-06-27 19:58:22.301435"], ["updated_at", "2016-06-27 19:58:22.301435"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "Bench for families with annoying kids"], ["lat", 37.777192], ["lng", -122.417343], ["created_at", "2016-06-27 19:58:22.303784"], ["updated_at", "2016-06-27 19:58:22.303784"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["description", "Bench for smokers"], ["lat", 37.759486], ["lng", -122.413027], ["created_at", "2016-06-27 19:58:22.305567"], ["updated_at", "2016-06-27 19:58:22.305567"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "Bench for Messi because he's awesome"], ["lat", 37.778113], ["lng", -122.511761], ["created_at", "2016-06-27 19:58:22.307280"], ["updated_at", "2016-06-27 19:58:22.307280"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mBench Load (0.6ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "benches"
+  [1m[36mBench Load (0.3ms)[0m  [1mSELECT "benches".* FROM "benches"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (4.4ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'benches'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["description", "Romantic Bench for Couples"], ["lat", 37.752334], ["lng", -122.447551], ["created_at", "2016-06-27 19:59:22.926409"], ["updated_at", "2016-06-27 19:59:22.926409"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "Bench for the princess and babe"], ["lat", 37.766898], ["lng", -122.468331], ["created_at", "2016-06-27 19:59:22.931746"], ["updated_at", "2016-06-27 19:59:22.931746"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["description", "Bench for Cats"], ["lat", 37.76655], ["lng", -122.442705], ["created_at", "2016-06-27 19:59:22.934647"], ["updated_at", "2016-06-27 19:59:22.934647"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "Bench for Dogs"], ["lat", 37.772042], ["lng", -122.458262], ["created_at", "2016-06-27 19:59:22.936895"], ["updated_at", "2016-06-27 19:59:22.936895"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["description", "Bench for families with annoying kids"], ["lat", 37.777192], ["lng", -122.417343], ["created_at", "2016-06-27 19:59:22.938650"], ["updated_at", "2016-06-27 19:59:22.938650"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "Bench for smokers"], ["lat", 37.759486], ["lng", -122.413027], ["created_at", "2016-06-27 19:59:22.940347"], ["updated_at", "2016-06-27 19:59:22.940347"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "benches" ("description", "lat", "lng", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["description", "Bench for Messi because he's awesome"], ["lat", 37.778113], ["lng", -122.511761], ["created_at", "2016-06-27 19:59:22.942029"], ["updated_at", "2016-06-27 19:59:22.942029"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for ::1 at 2016-06-27 12:59:29 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/assets/bundle.self-dcd0c2f3a4454dfdb98ceb98bcd67c7cf7f4e8bfc2abb74c54027bc0bf8dd055.js?body=1" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 12:59:29 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 12:59:30 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (2.9ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 18ms (Views: 2.0ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 13:00:00 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:00:00 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:00:00 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:00:00 -0700
+
+
+Started GET "/assets/bundle.self-40eb6f9ab54aef4b111505ef22b0b52514f2bf0669392b873fa11ca7ba4fe0b7.js?body=1" for ::1 at 2016-06-27 13:00:00 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:00:00 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:00:00 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:00:00 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:00:00 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:00:00 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:00:01 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 13:00:01 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.8ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 13:00:10 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:00:10 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:00:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:00:10 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:00:10 -0700
+
+
+Started GET "/assets/bundle.self-40eb6f9ab54aef4b111505ef22b0b52514f2bf0669392b873fa11ca7ba4fe0b7.js?body=1" for ::1 at 2016-06-27 13:00:10 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:00:11 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:00:11 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:00:11 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:00:11 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:00:11 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 13:00:11 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (2.6ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 9ms (Views: 4.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81744310540351&bounds%5BnorthEast%5D%5Blng%5D=-122.36530548095703&bounds%5BsouthWest%5D%5Blat%5D=37.749608442371866&bounds%5BsouthWest%5D%5Blng%5D=-122.4511361694336" for ::1 at 2016-06-27 13:00:13 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81744310540351", "lng"=>"-122.36530548095703"}, "southWest"=>{"lat"=>"37.749608442371866", "lng"=>"-122.4511361694336"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.749608442371866 AND 37.81744310540351
+      AND
+        lng BETWEEN -122.4511361694336 AND -122.36530548095703
+
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.83113814783871&bounds%5BnorthEast%5D%5Blng%5D=-122.36530548095703&bounds%5BsouthWest%5D%5Blat%5D=37.763316061987126&bounds%5BsouthWest%5D%5Blng%5D=-122.4511361694336" for ::1 at 2016-06-27 13:00:20 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.83113814783871", "lng"=>"-122.36530548095703"}, "southWest"=>{"lat"=>"37.763316061987126", "lng"=>"-122.4511361694336"}}}
+  [1m[36mBench Load (0.5ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.763316061987126 AND 37.83113814783871
+      AND
+        lng BETWEEN -122.4511361694336 AND -122.36530548095703
+[0m
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.828562046801&bounds%5BnorthEast%5D%5Blng%5D=-122.41611724853516&bounds%5BsouthWest%5D%5Blat%5D=37.76073759482716&bounds%5BsouthWest%5D%5Blng%5D=-122.50194793701172" for ::1 at 2016-06-27 13:00:22 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.828562046801", "lng"=>"-122.41611724853516"}, "southWest"=>{"lat"=>"37.76073759482716", "lng"=>"-122.50194793701172"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.76073759482716 AND 37.828562046801
+      AND
+        lng BETWEEN -122.50194793701172 AND -122.41611724853516
+
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809848719425666&bounds%5BnorthEast%5D%5Blng%5D=-122.39998107910156&bounds%5BsouthWest%5D%5Blat%5D=37.74200708357499&bounds%5BsouthWest%5D%5Blng%5D=-122.48581176757813" for ::1 at 2016-06-27 13:00:23 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809848719425666", "lng"=>"-122.39998107910156"}, "southWest"=>{"lat"=>"37.74200708357499", "lng"=>"-122.48581176757813"}}}
+  [1m[36mBench Load (0.6ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74200708357499 AND 37.809848719425666
+      AND
+        lng BETWEEN -122.48581176757813 AND -122.39998107910156
+[0m
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.794250656179955&bounds%5BnorthEast%5D%5Blng%5D=-122.40255599975586&bounds%5BsouthWest%5D%5Blat%5D=37.72639470264192&bounds%5BsouthWest%5D%5Blng%5D=-122.48838668823242" for ::1 at 2016-06-27 13:00:25 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.794250656179955", "lng"=>"-122.40255599975586"}, "southWest"=>{"lat"=>"37.72639470264192", "lng"=>"-122.48838668823242"}}}
+  [1m[35mBench Load (0.5ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.72639470264192 AND 37.794250656179955
+      AND
+        lng BETWEEN -122.48838668823242 AND -122.40255599975586
+
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.80957747690707&bounds%5BnorthEast%5D%5Blng%5D=-122.4049592590332&bounds%5BsouthWest%5D%5Blat%5D=37.741735592035965&bounds%5BsouthWest%5D%5Blng%5D=-122.49078994750977" for ::1 at 2016-06-27 13:00:26 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.80957747690707", "lng"=>"-122.4049592590332"}, "southWest"=>{"lat"=>"37.741735592035965", "lng"=>"-122.49078994750977"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.741735592035965 AND 37.80957747690707
+      AND
+        lng BETWEEN -122.49078994750977 AND -122.4049592590332
+[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.83154489241307&bounds%5BnorthEast%5D%5Blng%5D=-122.40186935424805&bounds%5BsouthWest%5D%5Blat%5D=37.76372318016477&bounds%5BsouthWest%5D%5Blng%5D=-122.48770004272461" for ::1 at 2016-06-27 13:01:02 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.83154489241307", "lng"=>"-122.40186935424805"}, "southWest"=>{"lat"=>"37.76372318016477", "lng"=>"-122.48770004272461"}}}
+  [1m[35mBench Load (0.5ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.76372318016477 AND 37.83154489241307
+      AND
+        lng BETWEEN -122.48770004272461 AND -122.40186935424805
+
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81011996094839&bounds%5BnorthEast%5D%5Blng%5D=-122.40255599975586&bounds%5BsouthWest%5D%5Blat%5D=37.742278574118764&bounds%5BsouthWest%5D%5Blng%5D=-122.48838668823242" for ::1 at 2016-06-27 13:01:04 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81011996094839", "lng"=>"-122.40255599975586"}, "southWest"=>{"lat"=>"37.742278574118764", "lng"=>"-122.48838668823242"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.742278574118764 AND 37.81011996094839
+      AND
+        lng BETWEEN -122.48838668823242 AND -122.40255599975586
+[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81445968979258&bounds%5BnorthEast%5D%5Blng%5D=-122.39380126953125&bounds%5BsouthWest%5D%5Blat%5D=37.74662228738237&bounds%5BsouthWest%5D%5Blng%5D=-122.47963195800781" for ::1 at 2016-06-27 13:01:06 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81445968979258", "lng"=>"-122.39380126953125"}, "southWest"=>{"lat"=>"37.74662228738237", "lng"=>"-122.47963195800781"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74662228738237 AND 37.81445968979258
+      AND
+        lng BETWEEN -122.47963195800781 AND -122.39380126953125
+
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 13:37:41 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 726ms (Views: 725.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/bundle.self-a7e6ff6583db3710d5b105342cfd23791de455ac863e2566971e8bdd387b7eed.js?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:37:42 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 13:37:55 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/assets/bundle.self-a7e6ff6583db3710d5b105342cfd23791de455ac863e2566971e8bdd387b7eed.js?body=1" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:37:55 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 13:38:30 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/assets/bundle.self-a7e6ff6583db3710d5b105342cfd23791de455ac863e2566971e8bdd387b7eed.js?body=1" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:38:30 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 13:38:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 299ms (Views: 298.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:38:32 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:38:32 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:38:32 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:38:32 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:38:32 -0700
+
+
+Started GET "/assets/bundle.self-57a058869fe5a3f5fa3104d4d38ed430673ffb449cd8ae7af1f273a1a76bf13f.js?body=1" for ::1 at 2016-06-27 13:38:32 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:38:32 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:38:32 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 13:38:33 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 13:38:33 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (3.1ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 35ms (Views: 2.5ms | ActiveRecord: 19.1ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/bundle.self-57a058869fe5a3f5fa3104d4d38ed430673ffb449cd8ae7af1f273a1a76bf13f.js?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:38:33 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:38:34 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 13:38:34 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.7ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 13:38:40 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 268ms (Views: 268.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bundle.self-2d5a090d2a5ad2382bbf78db688a08dd08998ab3f291a211fbccaf44c4e12e2a.js?body=1" for ::1 at 2016-06-27 13:38:40 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:38:40 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:38:40 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:38:40 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:38:40 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:38:40 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:38:40 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:38:40 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:38:40 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:38:41 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 13:38:41 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.7ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 13:39:24 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/assets/bundle.self-2d5a090d2a5ad2382bbf78db688a08dd08998ab3f291a211fbccaf44c4e12e2a.js?body=1" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:39:24 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 13:39:25 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[36mBench Load (0.7ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+[0m
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-06-27 13:39:27 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 283ms (Views: 282.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/assets/bundle.self-f76ccfe56d26d832f173a79c3db2211970a2c6ee80e10022885230cd033a1682.js?body=1" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:39:28 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 13:39:30 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:39:30 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:31 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:39:31 -0700
+
+
+Started GET "/assets/bundle.self-f76ccfe56d26d832f173a79c3db2211970a2c6ee80e10022885230cd033a1682.js?body=1" for ::1 at 2016-06-27 13:39:31 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:39:31 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:31 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:31 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:39:31 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:39:31 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 13:39:32 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/assets/bundle.self-f76ccfe56d26d832f173a79c3db2211970a2c6ee80e10022885230cd033a1682.js?body=1" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:39:32 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 13:39:45 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/assets/bundle.self-f76ccfe56d26d832f173a79c3db2211970a2c6ee80e10022885230cd033a1682.js?body=1" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:39:45 -0700
+
+
+Started GET "/" for ::1 at 2016-06-27 13:39:47 -0700
+Processing by StaticPagesController#root as HTML
+  Rendered static_pages/root.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 252ms (Views: 251.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/benches.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/assets/application.self-76280064d83400855c0b4ddf27539432eafbdf42e2b50197ad77aaa576b4dbf8.css?body=1" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/assets/bundle.self-2e5a62d93a56fd8aca2385504eee637edd97900c26431c828a7869e02a2140ea.js?body=1" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/assets/benches.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/assets/bundle.js.map" for ::1 at 2016-06-27 13:39:48 -0700
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.809713098290686&bounds%5BnorthEast%5D%5Blng%5D=-122.39208465576172&bounds%5BsouthWest%5D%5Blat%5D=37.74187133792972&bounds%5BsouthWest%5D%5Blng%5D=-122.47791534423828" for ::1 at 2016-06-27 13:39:48 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.809713098290686", "lng"=>"-122.39208465576172"}, "southWest"=>{"lat"=>"37.74187133792972", "lng"=>"-122.47791534423828"}}}
+  [1m[35mBench Load (0.6ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.74187133792972 AND 37.809713098290686
+      AND
+        lng BETWEEN -122.47791534423828 AND -122.39208465576172
+
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.82042640044404&bounds%5BnorthEast%5D%5Blng%5D=-122.3720002746582&bounds%5BsouthWest%5D%5Blat%5D=37.7525944768644&bounds%5BsouthWest%5D%5Blng%5D=-122.45783096313477" for ::1 at 2016-06-27 13:39:51 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.82042640044404", "lng"=>"-122.3720002746582"}, "southWest"=>{"lat"=>"37.7525944768644", "lng"=>"-122.45783096313477"}}}
+  [1m[36mBench Load (0.5ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.7525944768644 AND 37.82042640044404
+      AND
+        lng BETWEEN -122.45783096313477 AND -122.3720002746582
+[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.81812113759111&bounds%5BnorthEast%5D%5Blng%5D=-122.41474395751953&bounds%5BsouthWest%5D%5Blat%5D=37.75028709715575&bounds%5BsouthWest%5D%5Blng%5D=-122.5005746459961" for ::1 at 2016-06-27 13:39:52 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.81812113759111", "lng"=>"-122.41474395751953"}, "southWest"=>{"lat"=>"37.75028709715575", "lng"=>"-122.5005746459961"}}}
+  [1m[35mBench Load (0.5ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.75028709715575 AND 37.81812113759111
+      AND
+        lng BETWEEN -122.5005746459961 AND -122.41474395751953
+
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.804288048645745&bounds%5BnorthEast%5D%5Blng%5D=-122.42126708984375&bounds%5BsouthWest%5D%5Blat%5D=37.73644130799753&bounds%5BsouthWest%5D%5Blng%5D=-122.50709777832031" for ::1 at 2016-06-27 13:39:53 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.804288048645745", "lng"=>"-122.42126708984375"}, "southWest"=>{"lat"=>"37.73644130799753", "lng"=>"-122.50709777832031"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.73644130799753 AND 37.804288048645745
+      AND
+        lng BETWEEN -122.50709777832031 AND -122.42126708984375
+[0m
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.80333862398298&bounds%5BnorthEast%5D%5Blng%5D=-122.38538986206055&bounds%5BsouthWest%5D%5Blat%5D=37.73549101180953&bounds%5BsouthWest%5D%5Blng%5D=-122.47122055053711" for ::1 at 2016-06-27 13:39:54 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.80333862398298", "lng"=>"-122.38538986206055"}, "southWest"=>{"lat"=>"37.73549101180953", "lng"=>"-122.47122055053711"}}}
+  [1m[35mBench Load (0.4ms)[0m        SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.73549101180953 AND 37.80333862398298
+      AND
+        lng BETWEEN -122.47122055053711 AND -122.38538986206055
+
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/benches?bounds%5BnorthEast%5D%5Blat%5D=37.804966201646664&bounds%5BnorthEast%5D%5Blng%5D=-122.39706283569336&bounds%5BsouthWest%5D%5Blat%5D=37.73712008352106&bounds%5BsouthWest%5D%5Blng%5D=-122.48289352416992" for ::1 at 2016-06-27 13:39:56 -0700
+Processing by Api::BenchesController#index as JSON
+  Parameters: {"bounds"=>{"northEast"=>{"lat"=>"37.804966201646664", "lng"=>"-122.39706283569336"}, "southWest"=>{"lat"=>"37.73712008352106", "lng"=>"-122.48289352416992"}}}
+  [1m[36mBench Load (0.4ms)[0m  [1m      SELECT
+        *
+      FROM
+        benches
+      WHERE
+        lat BETWEEN 37.73712008352106 AND 37.804966201646664
+      AND
+        lng BETWEEN -122.48289352416992 AND -122.39706283569336
+[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)

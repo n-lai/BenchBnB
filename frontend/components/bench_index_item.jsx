@@ -4,11 +4,7 @@ const BenchIndexItem = React.createClass({
   render() {
     return (
       <div>
-        {
-          ['description', 'lat', 'lng'].map(attr => {
-            return <p key={attr}>{attr}: {this.props.bench[attr]}</p>;
-          })
-        }
+        <p key={this.props.bench['description']}>{this.props.bench['description']}</p>
       </div>
     )
   }

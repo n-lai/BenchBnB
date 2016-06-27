@@ -3,6 +3,10 @@ const ReactDOM = require('react-dom');
 const BenchStore = require('../stores/bench_store');
 
 const BenchMap = React.createClass({
+  getInitialState() {
+    return { markers: [] };
+  },
+
   componentDidMount() {
       this.Listener = BenchStore.addListener(this._onChange);
 
@@ -12,8 +16,12 @@ const BenchMap = React.createClass({
         zoom: 13
       };
       this.map = new google.maps.Map(mapDOMNode, mapOptions);
-
       this.listenForMove();
+      this._onChange();
+  },
+
+  componentDidUpdate() {
+    this._onChange();
   },
 
   componentWillUnmount() {
@@ -21,17 +29,37 @@ const BenchMap = React.createClass({
   },
 
   _onChange() {
+    const currentBenchIds = this.state.markers.map(marker => marker.benchId)
+    const newBenchIds = BenchStore.all().map(bench => bench.id);
+
+    this.state.markers.forEach(marker => {
+      if (!newBenchIds.includes(marker.benchId)) {
+        this.removeMarker(marker);
+      }
+    });
+
     BenchStore.all().forEach(bench => {
-      const location = { lat: bench['lat'], lng: bench['lng'] }
-      this.addMarker(location, this.map);
-    })
+      if (!currentBenchIds.includes(bench.id)) {
+        const location = { lat: bench['lat'], lng: bench['lng'] }
+        this.addMarker(location, this.map, bench.id);
+      }
+    });
+
   },
 
-  addMarker(location, map) {
+  removeMarker(marker) {
+    const idx = this.state.markers.indexOf(marker);
+    this.state.markers[idx].setMap(null);
+    this.state.markers.splice(idx, 1);
+  },
+
+  addMarker(location, map, benchId) {
     const marker = new google.maps.Marker({
       position: location,
-      map: map
+      map: map,
+      benchId: benchId
     })
+    this.state.markers.push(marker);
   },
 
   listenForMove() {

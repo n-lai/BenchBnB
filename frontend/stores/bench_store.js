@@ -25,6 +25,7 @@ BenchStore.all = function() {
 };
 
 BenchStore.resetAllBenches = function(benches) {
+  _benches = {};
   _benches = benches;
   BenchStore.__emitChange();
 };
