@@ -11,6 +11,17 @@ const BenchApiUtil = {
         console.log("error")
       }
     });
+  },
+
+  createBench(bench, cb) {
+    $.ajax({
+      url: '/api/benches',
+      method: 'POST',
+      data: { bench },
+      success: function(response) {
+        cb(response);
+      }
+    });
   }
 };
 

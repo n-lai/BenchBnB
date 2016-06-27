@@ -1,6 +1,9 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 const BenchStore = require('../stores/bench_store');
+const BenchActions = require('../actions/bench_actions');
+const hashHistory = require('react-router').hashHistory;
+
 
 const BenchMap = React.createClass({
   getInitialState() {
@@ -47,6 +50,13 @@ const BenchMap = React.createClass({
 
   },
 
+  handleClick(coords) {
+    hashHistory.push({
+      pathname: "benches/new",
+      query: coords
+    });
+  },
+
   removeMarker(marker) {
     const idx = this.state.markers.indexOf(marker);
     this.state.markers[idx].setMap(null);
@@ -63,6 +73,7 @@ const BenchMap = React.createClass({
   },
 
   listenForMove() {
+    const that = this;
     google.maps.event.addListener(this.map, 'idle', () => {
       const latLng = this.map.getBounds();
       const northEast = latLng.getNorthEast();
@@ -73,6 +84,15 @@ const BenchMap = React.createClass({
         'southWest': {'lat': southWest.lat(), 'lng': southWest.lng() }
       }
       BenchActions.fetchAllBenches(bounds);
+    });
+
+    google.maps.event.addListener(this.map, 'click', function(event) {
+      const location = event.latLng;
+      const lat = location.lat();
+      const lng = location.lng();
+      const coords = { lat: lat, lng: lng }
+
+      that.handleClick(coords);
     });
   },
 
