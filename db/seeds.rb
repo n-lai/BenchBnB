@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 romantic_bench = Bench.create(description: "Romantic Bench for Couples", lat: 37.752334, lng: -122.447551)
-princess_bench = Bench.create(description: "Bench for the princess", lat: 37.766898, lng: -122.468331)
+princess_bench = Bench.create(description: "Bench for the princess and babe", lat: 37.766898, lng: -122.468331)
 cat_bench = Bench.create(description: "Bench for Cats", lat: 37.766550, lng: -122.442705)
 dog_bench = Bench.create(description: "Bench for Dogs", lat: 37.772042, lng: -122.458262)
 annoying_family_bench = Bench.create(description: "Bench for families with annoying kids", lat: 37.777192, lng: -122.417343)
