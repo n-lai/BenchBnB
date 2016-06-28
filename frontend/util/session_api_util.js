@@ -6,6 +6,9 @@ const SessionApiUtil = {
       data: { user },
       success: (resp) => {
         cb(resp);
+      },
+      error: (resp) => {
+        console.log(resp);
       }
     });
   },
@@ -13,21 +16,26 @@ const SessionApiUtil = {
   login(user, cb) {
     $.ajax({
       method: 'post',
-      url: '/api/users',
+      url: '/api/session',
       data: { user },
       success: (resp) => {
         cb(resp);
+      },
+      error: (resp) => {
+        console.log(resp);
       }
     });
   },
 
-  logout(user, cb) {
+  logout(cb) {
     $.ajax({
-      method: 'post',
-      url: '/api/users',
-      data: { user },
+      method: 'delete',
+      url: '/api/session',
       success: (resp) => {
         cb(resp);
+      },
+      error: (resp) => {
+        console.log(resp);
       }
     });
   }

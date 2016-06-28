@@ -40,10 +40,10 @@ const BenchForm = React.createClass({
         <input type="number" value={this.state.seats} onChange={this.seatsChange}/>
         <br></br>
         <label>Lat</label>
-        <input type="number"  disabled="disabled"/>
+        <input type="number"  value={this.state.lat} disabled="disabled"/>
         <br></br>
         <label>Lng</label>
-        <input type="number"  disabled="disabled"/>
+        <input type="number"  value={this.state.lng} disabled="disabled"/>
         <br></br>
         <input type="Submit" defaultValue="Create Bench"/>
       </form>
